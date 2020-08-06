@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	div.block1{
+		border: 1px solid black;
+		position: static;
+  height:100px;
+	}
+	div.block2{
+		border: 1px solid red;
+/* 		position: relative;自己本身定位,不影響其他區塊的位置 */
+/*     position: fixed;     */
+/*        position: sticky; */
+		/* top: 20px; */
+		height: 150px;
+/*     width:30%; */
+/*     right:10px; */
+/*     bottom:10px; */
+    top: 0;
+	}
+div.block2 p.para{
+  border:1px solid green;
+  margin:0;
+/*   position:absolute;往父元素找 */
+  position:sticky;
+/*   right:0; */
+/*   bottom:0; */
+  top:0;
+}
+	div.block3{
+		border: 1px solid blue;
+	}
+</style>
+<body>
+	<div class="parent">
+		<div class="block1">區塊一</div>
+		<div class="block2">
+		區塊二
+		<p class="para">這是段落</p>
+		</div>
+		<div class="block3">區塊三</div>
+	</div>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+<p>這是段落</p>
+</body>
+</html>
